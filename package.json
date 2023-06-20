@@ -5,51 +5,25 @@
   "scripts": {
     "reset": "rimraf ./**/node_modules",
     "clean": "rimraf dist",
-    "prepare": "husky install",
-    "update": "npm-check-updates -u",
     "new": "tiddlywiki-plugin-dev new",
     "dev": "tiddlywiki-plugin-dev dev",
     "build": "yarn run clean && tiddlywiki-plugin-dev build",
     "build:library": "yarn run clean && tiddlywiki-plugin-dev build --library --output dist/library",
-    "publish": "yarn run clean && tiddlywiki-plugin-dev publish",
-    "publish:offline": "yarn run clean && tiddlywiki-plugin-dev publish --offline"
+    "publish": "yarn run clean && tiddlywiki-plugin-dev publish"
   },
-  "tsFiles": [
-    "src/ExportAsPDFWidget.ts"
-  ],
   "engines": {
     "node": ">=16"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
-    ],
-    "*.{js,jsx,mjs,mjsx,cjs,cjsx}": [
-      "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
-    ]
-  },
   "devDependencies": {
-    "@modern-js/eslint-config": "^2.22.1",
-    "@modern-js/tsconfig": "^2.22.1",
     "@types/html-to-pdfmake": "^2.4.1",
     "@types/node": "^20.2.5",
     "@types/pdfmake": "^0.2.2",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
     "rimraf": "^5.0.1",
     "ts-node": "^10.9.1",
     "tw5-typed": "^0.2.27",
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "fflate": "^0.8.0",
-    "html-to-pdfmake": "^2.4.22",
-    "pdfmake": "^0.2.7",
     "tiddlywiki": "^5.2.5",
     "tiddlywiki-plugin-dev": "^0.0.36"
   }
