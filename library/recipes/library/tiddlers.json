@@ -5,11 +5,11 @@
         "author": "$Author",
         "description": "",
         "plugin-type": "plugin",
-        "version": "0.0.1",
+        "version": "0.1.0",
         "list": "readme credits",
         "dependents": "",
         "type": "application/json",
-        "Modern.TiddlyDev#SHA256-Hashed": "f93893d49ecf7e0f07688a5c9a66aa424e8aad08264d499a6c599da8326e3746",
+        "Modern.TiddlyDev#SHA256-Hashed": "f9a1fb2c965a185adef754819f050d82120ed8709399c68cbf53e4b4a9fc7af6",
         "readme": "! $Plugin",
         "requires-reload": "yes"
     }
