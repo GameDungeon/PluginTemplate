@@ -1,7 +1,7 @@
 {
   "url": "",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "scripts": {
     "reset": "rimraf ./**/node_modules",
     "clean": "rimraf dist",
