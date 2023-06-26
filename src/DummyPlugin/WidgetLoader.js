@@ -12,5 +12,5 @@
     
     /* eslint-disable @typescript-eslint/no-unsafe-member-access */
     exports.example = example;
-    exports["action-export-pdf"] = exportAsPDF;
+    exports["example"] = example;
 })();

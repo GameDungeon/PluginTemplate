@@ -15,9 +15,7 @@
     "node": ">=16"
   },
   "devDependencies": {
-    "@types/html-to-pdfmake": "^2.4.1",
     "@types/node": "^20.2.5",
-    "@types/pdfmake": "^0.2.2",
     "rimraf": "^5.0.1",
     "ts-node": "^10.9.1",
     "tw5-typed": "^0.2.27",
