@@ -9,7 +9,7 @@
         "list": "readme credits",
         "dependents": "",
         "type": "application/json",
-        "Modern.TiddlyDev#SHA256-Hashed": "1019a86261cf83f9248290c5313f70a7c96b2b30ef9d5c18b3b00383a447d1ca",
+        "Modern.TiddlyDev#SHA256-Hashed": "affb8731add881ac2675b58721f13c2e50e5626e6a1bfc911f1adfb0e0ee9f25",
         "readme": "! $Plugin",
         "requires-reload": "yes"
     }
